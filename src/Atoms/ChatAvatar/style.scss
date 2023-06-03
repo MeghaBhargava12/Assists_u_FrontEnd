@@ -1,0 +1,30 @@
+.ChatAvatar {
+  display: flex;
+  align-items: center;
+  img {
+    width: 150px;
+    height: 150px;
+    padding: 10px 0;
+  }
+  .CustomMessage {
+    .name {
+      text-transform: capitalize;
+      color: var(--white);
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    .message {
+      color: var(--primary-color);
+      font-size: 14px;
+    }
+  }
+  .message-area {
+    border: 2px solid var(--primary-color);
+    color: var(--white);
+    margin-top: 20px;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 5px;
+    width: 300px;
+  }
+}

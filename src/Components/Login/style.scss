@@ -1,0 +1,59 @@
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  height: 80vh;
+
+  margin-top: 20px;
+  .CreateAccount {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  .textBox {
+    margin-bottom: 20px;
+  }
+  button {
+    margin-top: 20px;
+  }
+  .broder {
+    border: 3px var(--primary-color) solid;
+    border-radius: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  @media (max-width: 1280px) {
+    height: 30%;
+  }
+  @media (max-width: 1024px) {
+    height: 40%;
+  }
+  @media (max-width: 480px) {
+    height: 100%;
+  }
+  .forgotPassword {
+    cursor: pointer;
+    color: var(--primary-color) solid;
+  }
+}
+.sendOtpModal {
+  width: 600px !important;
+  height: 200px !important;
+  top: calc(100% - 50% - 100px) !important;
+  left: calc(100% - 50% - 300px) !important;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  .textBox {
+    align-self: center;
+  }
+}

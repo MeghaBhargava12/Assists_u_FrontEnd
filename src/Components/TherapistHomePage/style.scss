@@ -1,0 +1,8 @@
+.TherapistHomePage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  span {
+    color: var(--primary-color);
+  }
+}

@@ -1,0 +1,89 @@
+.ChatRoom {
+  color: var(--white);
+
+  .chat-space {
+    overflow: auto;
+    max-height: 400px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .button_create {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+}
+.modal3Dmessage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .canva {
+    width: 50% !important;
+  }
+  .message-sec {
+    width: 50%;
+    .ChatSec {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      height: 45%;
+      border: 2px var(--primary-color) solid;
+      margin: 10px;
+      padding: 10px;
+      .message-title {
+        color: var(--primary-color);
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .speech-button {
+        color: var(--primary-color);
+        cursor: pointer;
+      }
+      .message-text {
+        color: var(--white);
+        height: 50%;
+        overflow: auto;
+      }
+    }
+    .message-send {
+      height: 40%;
+      border: 2px var(--primary-color) solid;
+      margin: 10px;
+      padding: 10px;
+      .textBox {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .btn-main {
+        display: flex;
+
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+.semdMessageModal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .canva {
+    width: 50% !important;
+  }
+  .message-sec {
+    border: 2px var(--primary-color) solid;
+    width: 50%;
+    padding: 20px;
+    .dropdown,
+    .textBox {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+}

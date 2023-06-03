@@ -1,0 +1,29 @@
+.PageTitle {
+  font-size: 30px;
+  color: var(--white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+  border-bottom: 2px solid var(--primary-color);
+  padding: 0 20px;
+
+  .pageName {
+    text-align: center;
+    width: 100%;
+  }
+  .button-collection {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    display: flex;
+    .btn-main {
+      margin-right: 15px;
+    }
+  }
+}
